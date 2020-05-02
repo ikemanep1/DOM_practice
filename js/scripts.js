@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $("button#hello").click(function() {
         $("ul").show();
-      $("ul#user").prepend("<li>Hello!</li>").css('background-color', 'green');
-      $("ul#webpage").prepend("<li>Why hello there!</li>").css('background-color', 'green');
+      $("ul#user").prepend("<img src='imgs/yes.jpeg'>").css('size', '20px');
+      $("ul#webpage").prepend("<img src='imgs/yes.jpeg'>").css('size', '20px');
     });
   
     $("button#goodbye").click(function() {
